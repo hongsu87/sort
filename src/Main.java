@@ -11,8 +11,8 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(100);
         }
-        AwesomeSort ShellSort = new BubbleSort();
-        ShellSort.sort(arr);
+        AwesomeSort Sort = new BubbleSort();
+        Sort.sort(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.printf("%d ", arr[i]);
         }
